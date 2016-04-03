@@ -2,8 +2,11 @@
 
 Python (Theano) implementation of Learning a Metric for Class-Conditional KNN code provided 
 by Daniel Jiwoong Im and Graham W Taylor.
-The codes include experiments on hodge decomposition, in particular convservative components (for now),
-and vector field deformations in 2D. For more information, see 
+
+Class Conditiaonl Metri Learning (CCML) learn a metric which captures perceptual similarity.
+Similar to how Neighbourhood Components Analysis optimizes a differentiable form of 
+KNN classification, which optimizes a soft form of the Naive Bayes Nearest Neighbour (NBNN) selection rule. 
+For more information, see 
 
 ```bibtex
 @article{Im2016ccml,
